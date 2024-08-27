@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Simple Data Analyser")
+st.title("Basic Data Analyser")
 
 file= st.file_uploader("Upload a CSV file",type='csv')
 
